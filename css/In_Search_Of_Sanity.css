@@ -1,0 +1,65 @@
+body{
+  background-color: #aaa;
+}
+.furnace {
+  background: url(../img/A_The_Furnace_Rooms.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ccc;
+  height: 600px;
+  width: 900px;
+}
+
+.asylum {
+  background: url(../img/Briarstone_Asylum.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ccc;
+  height: 2000px;
+  width: 1469px;
+}
+.container {
+  position: static;
+  margin: 0px;
+}
+
+.drag{
+  position: absolute;
+    background: none;
+    color: white;
+}
+.dragspot{
+  display: inline;
+  font-size: 20px;
+  padding: 0px 0px 0px 0px;
+}
+.drag button{
+  position: relative;
+  background: none;
+  color: white;
+  border: none;
+}
+
+.A1aDrag{
+  top: 260px;
+  left: 270px;
+}
+.toplevel{
+  position: fixed;
+  width: 100%;
+  overflow-y: scroll;
+}
+.check{
+  color: #5c5;
+  font-weight: bold;
+}
+.collapse{
+  background-color: rgba(181, 101,29, 0.5);
+  max-width: 800px;
+  min-width: 400px;
+}
+.indent{
+  padding-left: 25px;
+}
