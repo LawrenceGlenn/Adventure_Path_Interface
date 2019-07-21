@@ -1,6 +1,25 @@
 body{
   background-color: #aaa;
 }
+.sidebar{
+  position: fixed;
+  width: 30%;
+  height: 90%;
+  background-color: lightgray;
+  border-style: solid;
+  border-width: medium;
+  right: 0;
+  top: 0;
+}
+.bottombar{
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  background-color: lightgray;
+  border-style: solid;
+  border-width: medium;
+  bottom: 0;
+}
 .furnace {
   background: url(../img/A_The_Furnace_Rooms.png);
   background-size: contain;
@@ -17,12 +36,13 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-color: #ccc;
-  height: 2000px;
-  width: 1469px;
+  margin: 0 50% 15% 0;
+  height: 3200px;
+  width: 2350px;
 }
 .container {
   position: static;
-  margin: 0px;
+  width: 180%;
 }
 
 .drag{
@@ -35,11 +55,19 @@ body{
   font-size: 20px;
   padding: 0px 0px 0px 0px;
 }
-.drag button{
-  position: relative;
+button{
+  position: absolute;
+  top: 283px;
+  left: 296px;
   background: none;
   color: white;
-  border: none;
+  border-style: groove;
+  border-width: medium;
+  width: 30px;
+  height: 30px;
+}
+button:focus{
+
 }
 
 .A1aDrag{
