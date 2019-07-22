@@ -12,8 +12,13 @@
   </head>
   <body>
 
-    <textfield class="sidebar"></textfield>
-    <div class ="bottombar"></div>
+    <textfield id="sidebar" class="sidebar"></textfield>
+    <div class ="bottombar">
+        <button id="intro">Intro</button>
+        <button id="description">Description</button>
+        <button id="roomRules">Room Rules</button>
+        <button id="monster">Monsters</button>
+    </div>
 
     Furnace Rooms
     <div class="container">
@@ -21,7 +26,7 @@
 
 
           </div>
-          <button type="button reveal" onclick="A1aReveal()"></button>
+          <button type="button" class="reveal" onclick="A1aReveal()"></button>
           <div id="A1a" class="collapse A1a" aria-expanded="false">
             <p>
               The lack of light is somewhat clostrophobic but getting a chance to look around the room more clearly you see, in addition to the three cells from whence you emerged, a sturdy wooden door to one side of you, streaks of sticky mostly dried gore trailing from under the crack. Nearby the door are several heavy looking large sacks, a few bloody streaks tarnish their exterior.

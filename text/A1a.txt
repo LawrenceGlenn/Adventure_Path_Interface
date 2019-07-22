@@ -1,0 +1,15 @@
+<p>
+              The lack of light is somewhat clostrophobic but getting a chance to look around the room more clearly you see, in addition to the three cells from whence you emerged, a sturdy wooden door to one side of you, streaks of sticky mostly dried gore trailing from under the crack. Nearby the door are several heavy looking large sacks, a few bloody streaks tarnish their exterior.
+            </p>
+            <p>
+              On the opposite side is an alcove that appears to have completly caved in, stone rouble and dirt now spilling out over the area, in fact looking around you notice varying cracks along most of the walls.
+            </p>
+            <p>
+              <span class = "check">DC 12 Arcitecture :</span> it looks like the entire foundation was shaken, something shifted the structure, an earthquake perhaps.
+            <br><span class= "check indent">Crit:</span> you are confident that the structure is currently sound, though you doubt its ability to stay that way if it was hit by whatever it was again.
+            <br><span class= "check indent">Fail:</span>  looks like the walls are cracked, maybe just age, not sure if it is structurally important
+            <br><span class= "check indent"> Fumble:</span> the structure looks sevearly comprimised, if you don't get out of here it could fall on you at any time.
+            </p>
+            <p>
+              it opens up like a T, a now empty desk, a few scattered scraps of rouble around it takes up most of the alcove on the right, the left appears to lead around a corner.
+            </p>

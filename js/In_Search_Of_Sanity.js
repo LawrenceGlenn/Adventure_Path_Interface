@@ -51,4 +51,27 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }  
+    var txtFile = new XMLHttpRequest();
+    var allText = "file not found";
+    txtFile.open("GET", '/text/A1a.txt', true);
+    txtFile.send(null);
+
+    txtFile.onreadystatechange = function () {
+            allText = txtFile.responseText;
+            allText = allText.split("\n").join("<br>");
+        
+console.log(txtFile);
+        document.getElementById('sidebar').innerHTML = allText;
+    }
+  function loadFile(filePath) {
+  var result = null;
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("GET", filePath, false);
+  xmlhttp.send();
+  if (xmlhttp.status==200) {
+    result = xmlhttp.responseText;
+  }
+  return result;
+}
+
 });
